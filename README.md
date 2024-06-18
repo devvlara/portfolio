@@ -32,10 +32,12 @@
 ### Zillow Data Pull and Clean  |  [Houses Sold](./Data%20Cleaning/Clean_Sold_Listings.ipynb)  |  [Houses Listed For Sale](./Data%20Cleaning/lean_For_Sale_Listings.ipynb)   |  [Data Exploration](./Zillow%20Data/Data%20Cleaning%20and%20Exploration/Data_Exploration.ipynb)
 
   #### Objectives:
-  - This project focuses on pre-processing and analyzing real estate listings to facilitate insights into market dynamics and property valuation.
+  - This project aims to process and analyze real estate listings to provide insights into market trends and property values. It focuses on identifying patterns and factors influencing the real estate market, supporting decision-making for various stakeholders.
 
-  #### Tools:
-  - **Python & Pandas:** Utilized for data cleaning and analysis.
+  #### Tools and Methodologies
+- **Python & Pandas:** Used for data cleaning and analysis, handling tasks such as removing duplicates, managing missing values, and converting data types.
+- **Data Analysis:** Involves calculating key metrics like average prices and analyzing market behaviors to understand property valuation dynamics.
+- **Visualization:** Creates informative charts using Python libraries to visually represent market trends and data insights.
   
 
 
