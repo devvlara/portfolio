@@ -29,7 +29,8 @@
 
 
 ## Projects
-### Zillow Data Pull and Clean  |  [Houses Sold](./Data%20Cleaning/Clean_Sold_Listings.ipynb)  |  [Houses Listed For Sale](./Data%20Cleaning/lean_For_Sale_Listings.ipynb)   |  [Houses Listed For Sale](./Data%20Cleaning/lean_For_Sale_Listings.ipynb)
+### Zillow Data Pull and Clean  |  [Houses Sold](./Data%20Cleaning/Clean_Sold_Listings.ipynb)  |  [Houses Listed For Sale](./Data%20Cleaning/lean_For_Sale_Listings.ipynb)   |  [Data Exploration](./Zillow%20Data/Data%20Cleaning%20and%20Exploration/Data_Exploration.ipynb)
+
   #### Objectives:
   - This project focuses on pre-processing and analyzing real estate listings to facilitate insights into market dynamics and property valuation.
 
