@@ -30,9 +30,14 @@
 
 ## Projects
 ### Zillow Data Pull and Clean  |  [Houses Sold](./Data%20Cleaning/Clean_Sold_Listings.ipynb)  |  [Houses Listed For Sale](./Data%20Cleaning/lean_For_Sale_Listings.ipynb) 
+  #### Objectives:
+  - **Clean_For_Sale_Listings.ipynb:** Clean and prepare data for properties currently for sale, focusing on data integrity and preparation for detailed analysis.
+  - **Clean_Sold_Listings.ipynb:** Analyze historical data of sold properties to understand market trends and support pricing strategies.
 
-In this project, I will analyze publicly available real estate data to gain insights into the housing market. The data, sourced from a reliable API, includes various attributes of recently listed and sold houses in a specific region. Key features of the dataset include price, square footage, number of bedrooms, number of bathrooms, and area codes. By examining these attributes, we aim to understand the pricing dynamics and trends within the housing market.
+  #### Tools:
+  - **Python & Pandas:** Utilized for data cleaning and analysis.
 
+  This project focuses on pre-processing and analyzing real estate listings to facilitate insights into market dynamics and property valuation.
 ![EEG Band Discovery](/.jpeg)
 
 
