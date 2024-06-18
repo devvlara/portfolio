@@ -1,0 +1,1649 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0515.0324                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='https://vizhub/workbooks/ForSaleListings?rev=1.1' id='ForSaleListings' path='/workbooks' revision='1.3' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='recently_listed_houses (recently_listed_houses)' inline='true' name='federated.1gfkwzu1wxqnaq17n78g213u0jdk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='recently_listed_houses' name='excel-direct.0rn1dgi0g6k0tw17dimzl0b3mao3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' interpretationMode='0' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0rn1dgi0g6k0tw17dimzl0b3mao3' name='recently_listed_houses' table='[recently_listed_houses$]' type='table'>
+          <columns gridOrigin='A1:AD469:no:A1:AD469:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='zipid' ordinal='1' />
+            <column datatype='string' name='sellertype' ordinal='2' />
+            <column datatype='string' name='marketstatus' ordinal='3' />
+            <column datatype='string' name='fulladdress' ordinal='4' />
+            <column datatype='integer' name='beds' ordinal='5' />
+            <column datatype='integer' name='baths' ordinal='6' />
+            <column datatype='integer' name='sqft' ordinal='7' />
+            <column datatype='string' name='update' ordinal='8' />
+            <column datatype='string' name='updatetype' ordinal='9' />
+            <column datatype='integer' name='timeonzillow' ordinal='10' />
+            <column datatype='real' name='latitude' ordinal='11' />
+            <column datatype='real' name='longitude' ordinal='12' />
+            <column datatype='string' name='streetaddress' ordinal='13' />
+            <column datatype='integer' name='zipcode' ordinal='14' />
+            <column datatype='string' name='city' ordinal='15' />
+            <column datatype='string' name='state' ordinal='16' />
+            <column datatype='integer' name='price' ordinal='17' />
+            <column datatype='integer' name='livingarea' ordinal='18' />
+            <column datatype='string' name='hometype' ordinal='19' />
+            <column datatype='integer' name='taxassessedvalue' ordinal='20' />
+            <column datatype='real' name='lotareavalue' ordinal='21' />
+            <column datatype='string' name='lotareaunit' ordinal='22' />
+            <column datatype='integer' name='datepricechange' ordinal='23' />
+            <column datatype='integer' name='zestimate' ordinal='24' />
+            <column datatype='integer' name='rentzestimate' ordinal='25' />
+            <column datatype='integer' name='pricechange' ordinal='26' />
+            <column datatype='string' name='url' ordinal='27' />
+            <column datatype='string' name='streetviewurl' ordinal='28' />
+            <column datatype='string' name='streetviewmetadataurl' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0rn1dgi0g6k0tw17dimzl0b3mao3' name='recently_listed_houses' table='[recently_listed_houses$]' type='table'>
+          <columns gridOrigin='A1:AD469:no:A1:AD469:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='zipid' ordinal='1' />
+            <column datatype='string' name='sellertype' ordinal='2' />
+            <column datatype='string' name='marketstatus' ordinal='3' />
+            <column datatype='string' name='fulladdress' ordinal='4' />
+            <column datatype='integer' name='beds' ordinal='5' />
+            <column datatype='integer' name='baths' ordinal='6' />
+            <column datatype='integer' name='sqft' ordinal='7' />
+            <column datatype='string' name='update' ordinal='8' />
+            <column datatype='string' name='updatetype' ordinal='9' />
+            <column datatype='integer' name='timeonzillow' ordinal='10' />
+            <column datatype='real' name='latitude' ordinal='11' />
+            <column datatype='real' name='longitude' ordinal='12' />
+            <column datatype='string' name='streetaddress' ordinal='13' />
+            <column datatype='integer' name='zipcode' ordinal='14' />
+            <column datatype='string' name='city' ordinal='15' />
+            <column datatype='string' name='state' ordinal='16' />
+            <column datatype='integer' name='price' ordinal='17' />
+            <column datatype='integer' name='livingarea' ordinal='18' />
+            <column datatype='string' name='hometype' ordinal='19' />
+            <column datatype='integer' name='taxassessedvalue' ordinal='20' />
+            <column datatype='real' name='lotareavalue' ordinal='21' />
+            <column datatype='string' name='lotareaunit' ordinal='22' />
+            <column datatype='integer' name='datepricechange' ordinal='23' />
+            <column datatype='integer' name='zestimate' ordinal='24' />
+            <column datatype='integer' name='rentzestimate' ordinal='25' />
+            <column datatype='integer' name='pricechange' ordinal='26' />
+            <column datatype='string' name='url' ordinal='27' />
+            <column datatype='string' name='streetviewurl' ordinal='28' />
+            <column datatype='string' name='streetviewmetadataurl' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AD469:no:A1:AD469:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zipid]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>zipid</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sellertype</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sellertype]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>sellertype</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marketstatus</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[marketstatus]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>marketstatus</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fulladdress</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[fulladdress]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>fulladdress</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>beds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[beds]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>beds</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>baths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[baths]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>baths</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sqft</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sqft]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>sqft</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>update</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[update]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>update</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>updatetype</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[updatetype]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>updatetype</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timeonzillow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[timeonzillow]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>timeonzillow</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>streetaddress</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[streetaddress]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>streetaddress</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zipcode]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>zipcode</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>livingarea</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[livingarea]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>livingarea</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hometype</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[hometype]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>hometype</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>taxassessedvalue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[taxassessedvalue]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>taxassessedvalue</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lotareavalue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lotareavalue]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>lotareavalue</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lotareaunit</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[lotareaunit]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>lotareaunit</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>datepricechange</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[datepricechange]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>datepricechange</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zestimate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zestimate]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>zestimate</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rentzestimate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rentzestimate]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>rentzestimate</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pricechange</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pricechange]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>pricechange</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>streetviewurl</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[streetviewurl]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>streetviewurl</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>streetviewmetadataurl</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[streetviewmetadataurl]</local-name>
+            <parent-name>[recently_listed_houses]</parent-name>
+            <remote-alias>streetviewmetadataurl</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='real' name='[Calculation_2378463582782889984]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='recently_listed_houses' datatype='table' name='[__tableau_internal_object_id__].[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Baths' datatype='integer' name='[baths]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Beds' datatype='integer' name='[beds]' role='dimension' type='ordinal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Datepricechange' datatype='integer' name='[datepricechange]' role='measure' type='quantitative' />
+      <column caption='Fulladdress' datatype='string' name='[fulladdress]' role='dimension' type='nominal' />
+      <column caption='Hometype' datatype='string' name='[hometype]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='dimension' semantic-role='[Geographical].[Latitude]' type='ordinal' />
+      <column caption='Livingarea' datatype='integer' name='[livingarea]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='dimension' semantic-role='[Geographical].[Longitude]' type='ordinal' />
+      <column caption='Lotareaunit' datatype='string' name='[lotareaunit]' role='dimension' type='nominal' />
+      <column caption='Lotareavalue' datatype='real' name='[lotareavalue]' role='measure' type='quantitative' />
+      <column caption='Marketstatus' datatype='string' name='[marketstatus]' role='dimension' type='nominal' />
+      <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+      <column caption='Pricechange' datatype='integer' name='[pricechange]' role='measure' type='quantitative' />
+      <column caption='Rentzestimate' datatype='integer' name='[rentzestimate]' role='measure' type='quantitative' />
+      <column caption='Sellertype' datatype='string' name='[sellertype]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Sqft' datatype='integer' name='[sqft]' role='dimension' type='ordinal' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Streetaddress' datatype='string' name='[streetaddress]' role='dimension' type='nominal' />
+      <column caption='Streetviewmetadataurl' datatype='string' name='[streetviewmetadataurl]' role='dimension' type='nominal' />
+      <column caption='Streetviewurl' datatype='string' name='[streetviewurl]' role='dimension' type='nominal' />
+      <column caption='Taxassessedvalue' datatype='integer' name='[taxassessedvalue]' role='measure' type='quantitative' />
+      <column caption='Timeonzillow' datatype='integer' name='[timeonzillow]' role='measure' type='quantitative' />
+      <column caption='Update' datatype='string' name='[update]' role='dimension' type='nominal' />
+      <column caption='Updatetype' datatype='string' name='[updatetype]' role='dimension' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Zestimate' datatype='integer' name='[zestimate]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column aggregation='Sum' caption='Zipid' datatype='integer' name='[zipid]' role='dimension' type='ordinal' />
+      <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1v2odik16cf6fb191kt8j10i49dd.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/15/2024 11:06:49 PM' username=''>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>468</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>zipid</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[zipid]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>zipid</remote-alias>
+              <ordinal>1</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>468</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sellertype</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[sellertype]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sellertype</remote-alias>
+              <ordinal>2</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>marketstatus</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[marketstatus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>marketstatus</remote-alias>
+              <ordinal>3</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fulladdress</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[fulladdress]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fulladdress</remote-alias>
+              <ordinal>4</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>468</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>beds</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[beds]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>beds</remote-alias>
+              <ordinal>5</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>baths</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[baths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>baths</remote-alias>
+              <ordinal>6</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sqft</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[sqft]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sqft</remote-alias>
+              <ordinal>7</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>437</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>update</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[update]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>update</remote-alias>
+              <ordinal>8</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>180</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>updatetype</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[updatetype]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>updatetype</remote-alias>
+              <ordinal>9</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>timeonzillow</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[timeonzillow]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>timeonzillow</remote-alias>
+              <ordinal>10</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>286</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>latitude</remote-alias>
+              <ordinal>11</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>463</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>longitude</remote-alias>
+              <ordinal>12</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>465</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>streetaddress</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[streetaddress]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>streetaddress</remote-alias>
+              <ordinal>13</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>468</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>zipcode</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[zipcode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>zipcode</remote-alias>
+              <ordinal>14</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>city</remote-alias>
+              <ordinal>15</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>state</remote-alias>
+              <ordinal>16</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>price</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>price</remote-alias>
+              <ordinal>17</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>325</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>livingarea</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[livingarea]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>livingarea</remote-alias>
+              <ordinal>18</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>437</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hometype</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[hometype]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hometype</remote-alias>
+              <ordinal>19</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>taxassessedvalue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[taxassessedvalue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>taxassessedvalue</remote-alias>
+              <ordinal>20</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>436</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lotareavalue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[lotareavalue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>lotareavalue</remote-alias>
+              <ordinal>21</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>298</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lotareaunit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[lotareaunit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>lotareaunit</remote-alias>
+              <ordinal>22</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>datepricechange</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[datepricechange]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>datepricechange</remote-alias>
+              <ordinal>23</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>zestimate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[zestimate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>zestimate</remote-alias>
+              <ordinal>24</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>330</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rentzestimate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[rentzestimate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rentzestimate</remote-alias>
+              <ordinal>25</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>309</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pricechange</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pricechange]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pricechange</remote-alias>
+              <ordinal>26</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>87</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>url</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[url]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>url</remote-alias>
+              <ordinal>27</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>468</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>streetviewurl</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[streetviewurl]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>streetviewurl</remote-alias>
+              <ordinal>28</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>streetviewmetadataurl</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[streetviewmetadataurl]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>streetviewmetadataurl</remote-alias>
+              <ordinal>29</ordinal>
+              <family>recently_listed_houses</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:zipcode:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>75210</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>75234</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>75225</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>75254</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>75205</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>75230</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>75215</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>75240</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>75211</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>75235</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>75206</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>75231</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>75223</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>75252</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>75201</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>75227</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>75287</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>75219</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>75248</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>75208</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>75232</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>75216</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>75241</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>75217</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>75243</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>75220</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>75249</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>75224</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>75253</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>75212</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>75236</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>75209</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>75233</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>75203</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>75228</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>75218</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>75244</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>75214</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>75238</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>75204</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>75229</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='recently_listed_houses' id='recently!listed!houses_F6625FA2979A4BB6A3BDC3C379518E0C'>
+            <properties context=''>
+              <relation connection='excel-direct.0rn1dgi0g6k0tw17dimzl0b3mao3' name='recently_listed_houses' table='[recently_listed_houses$]' type='table'>
+                <columns gridOrigin='A1:AD469:no:A1:AD469:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='zipid' ordinal='1' />
+                  <column datatype='string' name='sellertype' ordinal='2' />
+                  <column datatype='string' name='marketstatus' ordinal='3' />
+                  <column datatype='string' name='fulladdress' ordinal='4' />
+                  <column datatype='integer' name='beds' ordinal='5' />
+                  <column datatype='integer' name='baths' ordinal='6' />
+                  <column datatype='integer' name='sqft' ordinal='7' />
+                  <column datatype='string' name='update' ordinal='8' />
+                  <column datatype='string' name='updatetype' ordinal='9' />
+                  <column datatype='integer' name='timeonzillow' ordinal='10' />
+                  <column datatype='real' name='latitude' ordinal='11' />
+                  <column datatype='real' name='longitude' ordinal='12' />
+                  <column datatype='string' name='streetaddress' ordinal='13' />
+                  <column datatype='integer' name='zipcode' ordinal='14' />
+                  <column datatype='string' name='city' ordinal='15' />
+                  <column datatype='string' name='state' ordinal='16' />
+                  <column datatype='integer' name='price' ordinal='17' />
+                  <column datatype='integer' name='livingarea' ordinal='18' />
+                  <column datatype='string' name='hometype' ordinal='19' />
+                  <column datatype='integer' name='taxassessedvalue' ordinal='20' />
+                  <column datatype='real' name='lotareavalue' ordinal='21' />
+                  <column datatype='string' name='lotareaunit' ordinal='22' />
+                  <column datatype='integer' name='datepricechange' ordinal='23' />
+                  <column datatype='integer' name='zestimate' ordinal='24' />
+                  <column datatype='integer' name='rentzestimate' ordinal='25' />
+                  <column datatype='integer' name='pricechange' ordinal='26' />
+                  <column datatype='string' name='url' ordinal='27' />
+                  <column datatype='string' name='streetviewurl' ordinal='28' />
+                  <column datatype='string' name='streetviewmetadataurl' ordinal='29' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.1gfkwzu1wxqnaq17n78g213u0jdk'>
+      <datasources>
+        <datasource caption='recently_listed_houses (recently_listed_houses)' name='federated.1gfkwzu1wxqnaq17n78g213u0jdk' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1gfkwzu1wxqnaq17n78g213u0jdk'>
+        <column aggregation='Sum' caption='Baths' datatype='integer' name='[baths]' role='dimension' type='ordinal' />
+        <column aggregation='Sum' caption='Beds' datatype='integer' name='[beds]' role='dimension' type='ordinal' />
+        <column-instance column='[baths]' derivation='None' name='[none:baths:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[beds]' derivation='None' name='[none:beds:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
+        <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:baths:ok]'>
+        <groupfilter from='1' function='range' level='[none:baths:ok]' to='17' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:beds:ok]'>
+        <groupfilter from='1' function='range' level='[none:beds:ok]' to='10' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]'>
+        <groupfilter from='75201' function='range' level='[none:zipcode:ok]' to='75287' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Zillow Link' name='[Action1_C7186F3682C84D11BEAA078F8B9EB6D2]'>
+      <activation type='on-select' />
+      <source datasource='federated.1gfkwzu1wxqnaq17n78g213u0jdk' type='datasource' />
+      <link caption='' expression='https://www.zillow.com&lt;[url]&gt;' />
+    </action>
+    <action caption='Highlight' name='[Action2_89C48AB2EA3F4915A2C8EF88F0E2F667]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source datasource='federated.1gfkwzu1wxqnaq17n78g213u0jdk' type='datasource' />
+      <command command='tsc:brush'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='All Listings' />
+      </command>
+    </action>
+    <datasources>
+      <datasource caption='recently_listed_houses (recently_listed_houses)' name='federated.1gfkwzu1wxqnaq17n78g213u0jdk' />
+    </datasources>
+    <datasource-dependencies datasource='federated.1gfkwzu1wxqnaq17n78g213u0jdk'>
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+    </datasource-dependencies>
+  </actions>
+  <worksheets>
+    <worksheet name='All Listings'>
+      <repository-location derived-from='https://vizhub/workbooks/ForSaleListings/AllListings?rev=' id='102169555' path='/workbooks/ForSaleListings' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='recently_listed_houses (recently_listed_houses)' name='federated.1gfkwzu1wxqnaq17n78g213u0jdk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gfkwzu1wxqnaq17n78g213u0jdk'>
+            <column aggregation='Sum' caption='Baths' datatype='integer' name='[baths]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' caption='Beds' datatype='integer' name='[beds]' role='dimension' type='ordinal' />
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[baths]' derivation='None' name='[none:baths:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[beds]' derivation='None' name='[none:beds:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[price]' derivation='None' name='[none:price:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[sqft]' derivation='None' name='[none:sqft:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column-instance column='[streetaddress]' derivation='None' name='[none:streetaddress:nk]' pivot='key' type='nominal' />
+            <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[zipid]' derivation='None' name='[none:zipid:ok]' pivot='key' type='ordinal' />
+            <column caption='Price' datatype='integer' name='[price]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Sqft' datatype='integer' name='[sqft]' role='dimension' type='ordinal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Streetaddress' datatype='string' name='[streetaddress]' role='dimension' type='nominal' />
+            <column-instance column='[price]' derivation='Sum' name='[sum:price:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+            <column aggregation='Sum' caption='Zipid' datatype='integer' name='[zipid]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipid:ok]' direction='ASC' measure-to-sort-by='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[sum:price:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:baths:ok]</column>
+            <column>[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:beds:ok]</column>
+            <column>[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:streetaddress:nk]' value='336' />
+            <format attr='width' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipid:ok]' value='140' />
+            <format attr='width' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]' value='168' />
+            <format attr='width' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:price:ok]' value='116' />
+            <format attr='width' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:sqft:ok]' value='108' />
+            <format attr='width' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:city:nk]' value='104' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:price:ok]' value='c&quot;$&quot;#,##0;(&quot;$&quot;#,##0)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontcolor='#e15759'>Click to Access Zillow Page Link</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='14.547999382019043' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipid:ok] / ([federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:beds:ok] / ([federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:baths:ok] / ([federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:sqft:ok] / ([federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:price:ok] / ([federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:streetaddress:nk] / ([federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:city:nk] / ([federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:state:nk] / [federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]))))))))</rows>
+        <cols />
+        <tooltip-style tooltip-mode='sticky' />
+      </table>
+      <simple-id uuid='{F3F3C586-49E2-47D6-BC06-1903A1A1FD0E}' />
+    </worksheet>
+    <worksheet name='Map of Listings'>
+      <repository-location derived-from='https://vizhub/workbooks/ForSaleListings/Map?rev=' id='102169556' path='/workbooks/ForSaleListings' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='recently_listed_houses (recently_listed_houses)' name='federated.1gfkwzu1wxqnaq17n78g213u0jdk' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1gfkwzu1wxqnaq17n78g213u0jdk'>
+            <column aggregation='Sum' caption='Baths' datatype='integer' name='[baths]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' caption='Beds' datatype='integer' name='[beds]' role='dimension' type='ordinal' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='dimension' semantic-role='[Geographical].[Latitude]' type='ordinal' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='dimension' semantic-role='[Geographical].[Longitude]' type='ordinal' />
+            <column-instance column='[baths]' derivation='None' name='[none:baths:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[beds]' derivation='None' name='[none:beds:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[latitude]' derivation='None' name='[none:latitude:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[longitude]' derivation='None' name='[none:longitude:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:baths:ok]</column>
+            <column>[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:beds:ok]</column>
+            <column>[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[Longitude (generated)]' field-type='quantitative' max='-10642336.738566784' min='-10889500.523440016' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[Latitude (generated)]' field-type='quantitative' max='3893133.9761861484' min='3834879.3734352696' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]' />
+              <lod column='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:latitude:ok]' />
+              <lod column='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:longitude:ok]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[Latitude (generated)]</rows>
+        <cols>[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{C8B078F4-3CB0-4D21-8D44-6841668C318A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <repository-location derived-from='https://vizhub/workbooks/ForSaleListings/Dashboard1?rev=' id='102169557' path='/workbooks/ForSaleListings' revision='' />
+      <style />
+      <size maxheight='900' maxwidth='1650' sizing-mode='range' />
+      <datasources>
+        <datasource caption='recently_listed_houses (recently_listed_houses)' name='federated.1gfkwzu1wxqnaq17n78g213u0jdk' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1gfkwzu1wxqnaq17n78g213u0jdk'>
+        <column aggregation='Sum' caption='Baths' datatype='integer' name='[baths]' role='dimension' type='ordinal' />
+        <column aggregation='Sum' caption='Beds' datatype='integer' name='[beds]' role='dimension' type='ordinal' />
+        <column-instance column='[baths]' derivation='None' name='[none:baths:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[beds]' derivation='None' name='[none:beds:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
+        <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='24' param='horz' type-v2='layout-flow' w='99030' x='485' y='889'>
+            <zone h='98222' id='14' type-v2='layout-basic' w='99030' x='485' y='889'>
+              <zone h='49111' id='3' name='Map of Listings' w='99030' x='485' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49111' id='5' name='All Listings' w='82969' x='485' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='13942' id='19' mode='checkdropdown' name='All Listings' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:beds:ok]' type-v2='filter' values='database' w='16061' x='83454' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='14444' id='22' mode='checkdropdown' name='All Listings' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:baths:ok]' type-v2='filter' values='database' w='16061' x='83454' y='63942'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='20725' id='25' mode='checkdropdown' name='All Listings' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]' type-v2='filter' values='database' w='16061' x='83454' y='78386'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='38' param='vert' type-v2='layout-flow' w='99030' x='485' y='889'>
+                <zone fixed-size='280' h='49111' id='3' is-fixed='true' name='Map of Listings' w='99030' x='485' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13942' id='19' mode='checkdropdown' name='All Listings' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:beds:ok]' type-v2='filter' values='database' w='16061' x='83454' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14444' id='22' mode='checkdropdown' name='All Listings' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:baths:ok]' type-v2='filter' values='database' w='16061' x='83454' y='63942'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='20725' id='25' mode='checkdropdown' name='All Listings' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]' type-v2='filter' values='database' w='16061' x='83454' y='78386'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49111' id='5' is-fixed='true' name='All Listings' w='82969' x='485' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{72365771-A4AB-45C3-8657-F4FC0E4E8C5C}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='All Listings'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Map of Listings'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{F0819B9D-6DB8-4326-A87E-C4DE9CC1256D}' />
+    </window>
+    <window class='worksheet' name='All Listings'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card mode='checkdropdown' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:beds:ok]' type='filter' />
+            <card mode='checkdropdown' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:baths:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1gfkwzu1wxqnaq17n78g213u0jdk].[none:zipcode:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A4C397CA-4091-4A43-809B-78F88F30E7ED}' />
+    </window>
+    <window class='worksheet' name='Map of Listings'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1AED6720-0E44-4047-B026-C2DCFF026968}' />
+    </window>
+  </windows>
+</workbook>
