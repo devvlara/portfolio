@@ -29,6 +29,23 @@
 
 
 ## Projects
+### Zillow Data Pull and Clean
+[Project File](https://Link)
+
+In this project, I will analyze publicly available real estate data to gain insights into the housing market. The data, sourced from a reliable API, includes various attributes of recently listed and sold houses in a specific region. Key features of the dataset include price, square footage, number of bedrooms, number of bathrooms, and area codes. By examining these attributes, we aim to understand the pricing dynamics and trends within the housing market.
+![EEG Band Discovery](/.jpeg)
 
 
-- [Data Science Blog](https://medium.com/@shawhin)
+### House Listing Dashboard
+[Project File](https://Link)
+
+Visualize House Location and Access Zillow Page Directly
+![EEG Band Discovery](/.jpeg)
+
+
+### Home Price Predictor
+[Project File](https://Link)
+
+
+Predict the House Price
+![EEG Band Discovery](/.jpeg)
