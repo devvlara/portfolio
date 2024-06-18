@@ -30,22 +30,42 @@
 
 ## Projects
 ### Zillow Data Pull and Clean
+
 [Project File](https://Link)
 
 In this project, I will analyze publicly available real estate data to gain insights into the housing market. The data, sourced from a reliable API, includes various attributes of recently listed and sold houses in a specific region. Key features of the dataset include price, square footage, number of bedrooms, number of bathrooms, and area codes. By examining these attributes, we aim to understand the pricing dynamics and trends within the housing market.
+
 ![EEG Band Discovery](/.jpeg)
 
 
 ### House Listing Dashboard
+
 [Project File](https://Link)
 
 Visualize House Location and Access Zillow Page Directly
+
 ![EEG Band Discovery](/.jpeg)
 
 
 ### Home Price Predictor
-[Project File](https://Link)
+Predict the Price of a Home, taking into account neighborhood
+
+![EEG Band Discovery](/.jpeg)
 
 
-Predict the House Price
+
+
+
+## Extra Cirricular Activites
+**Texas Rocket Engineering Lab, The University of Texas at Austin**
+### Fluid Systems Principal Engineer	(_May 2021 - Jan 2022_)							            
+- Managed the fluids subteam of 25 members, overseeing manufacturing, testing, and integration, and implemented an organizational tool to streamline project assignments.
+- Enhanced team productivity and knowledge transfer through new processes and coordinated communication of lab-wide updates to over 250 members.
+- Presented fluid systems information to directors and promoted the subsystem at university-wide recruitment events to attract new members.
+
+### Fluids Umbilical Integration Engineer  (_Jan 2021 - Mar 2022_)					           
+- Developed the Halcyon rocket's separation and quick disconnect systems, including multiple CAD iterations to optimize ground-side design and prevent launch interference.
+- Constructed and integrated an autonomous separation mechanism within the hold down structure, ensuring compatibility and durability of materials.
+- Designed and implemented the power and communication umbilicals into the quick disconnect system, administered operations, and composed test plans to meet operational constraints.
+
 ![EEG Band Discovery](/.jpeg)
