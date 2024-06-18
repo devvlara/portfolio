@@ -16,6 +16,7 @@
 - Managed a comprehensive internal database to meticulously track project status, investments, and schedules, enhancing project transparency and stakeholder communication.
 - Developed and maintained Tableau dashboards to monitor real-time status of projects across all production engineering and management sectors.
 
+
 **Offshore Project Engineering Intern @ Occidental Petroleum (_May 2022 - August 2022_)**
 - Developed a financial forecasting tool to accurately predict financial obligations related to the maintenance and operation of subsea equipment across 13 offshore facilities in the Gulf of Mexico.
 - Engineered and implemented a comprehensive, granular database designed to streamline the processes of budgeting, asset management, and removal coordination. 
