@@ -1,20 +1,23 @@
-# Data Scientist
+# Data Analyst
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, Tabealu, SQL, AWS
 
-## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+## Education 			        		
+- B.S., Mechanical Engineering | The University of Texas at Austin (_May 2023_)
+- Industrial Engineering and Management Track
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Aeronautical F-35 Operations Engineer @ Lockheed Martin (_June 2023 - Present_)**
+- Created comprehensive business cases for manufacturing projects, significantly enhancing producibility and quality by eliminating upwards of 450 hours of touch labor on each jet.
+- Coordinated cross-site collaboration among 12 build areas and three production sites, adeptly assessing investment requirements for over 90 production engineers.
+- Delivered a 15.7x ROI, generating upwards of $28 million in savings across 32 projects.
+- Directed strategic meetings with key stakeholders to define and initiate corrective action projects, ensuring alignment with organizational goals, ultimately reducing cost, repairs, and span of the manufacturing process.
+- Communicated project progress and cost savings to senior executives, directors, and vice presidents.
+- Managed a comprehensive internal database to meticulously track project status, investments, and schedules, enhancing project transparency and stakeholder communication.
+- Developed and maintained Tableau dashboards to monitor real-time status of projects across all production engineering and management sectors.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+
+
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
