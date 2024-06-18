@@ -9,7 +9,7 @@
 
 
 ## Certifications
-- **The Data Analyst Course: Complete Data Analyst Bootcamp**:
+- **The Data Analyst Course: Complete Data Analyst Bootcamp**
 - **The Complete SQL Bootcamp**
 - **Python for Machine Learning & Data Science Masterclass (In Work)**
 
