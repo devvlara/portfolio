@@ -19,6 +19,7 @@
 ### Aeronautical F-35 Operations Engineer @ Lockheed Martin (_June 2023 - Present_)
 - Developed and implemented strategic business cases and collaboration initiatives across multiple production sites, enhancing producibility and quality, and delivering a 15.7x ROI with $28 million in savings from 32 projects.
 - Improved project management and stakeholder communication by maintaining comprehensive databases and Tableau dashboards, and effectively managing corrective action projects to align with organizational goals.
+![Production](/Imagess/F35.jpeg)
 
 
 ### Offshore Project Engineering Intern @ Occidental Petroleum (_May 2022 - August 2022_)
