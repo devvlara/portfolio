@@ -29,7 +29,7 @@
 
 
 ## Projects
-### Zillow Data Pull and Clean  |  [Houses Sold](https://Data Cleaning/Clean_Sold_Listings.ipynb)  |  [Houses Listed For Sale](https://Data Cleaning/Clean_For_Sale_Listings.ipynb) 
+### Zillow Data Pull and Clean  |  [Houses Sold](//Data Cleaning/Clean_Sold_Listings.ipynb)  |  [Houses Listed For Sale](//Data Cleaning/Clean_For_Sale_Listings.ipynb) 
 
 In this project, I will analyze publicly available real estate data to gain insights into the housing market. The data, sourced from a reliable API, includes various attributes of recently listed and sold houses in a specific region. Key features of the dataset include price, square footage, number of bedrooms, number of bathrooms, and area codes. By examining these attributes, we aim to understand the pricing dynamics and trends within the housing market.
 
