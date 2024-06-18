@@ -8,9 +8,9 @@
 
 
 ## Certifications
-**The Data Analyst Course**: Complete Data Analyst Bootcamp: Acquiring end-to-end data analysis skills, including Python, pandas, NumPy, and practical applications in data collection, cleaning, preprocessing, and visualization.
-**The Complete SQL Bootcamp**: Gained expertise in SQL and PostgreSQL, focusing on advanced querying, data analysis techniques, and practical database management skills.
-**Python for Machine Learning & Data Science Masterclass (In Work)**: -Advanced mastery in Python for data science and machine learning, covering comprehensive topics from data manipulation with Pandas to deploying machine learning models, enhancing employability in top tech sectors.
+- **The Data Analyst Course**: Complete Data Analyst Bootcamp: Acquiring end-to-end data analysis skills, including Python, pandas, NumPy, and practical applications in data collection, cleaning, preprocessing, and visualization.
+- **The Complete SQL Bootcamp**: Gained expertise in SQL and PostgreSQL, focusing on advanced querying, data analysis techniques, and practical database management skills.
+- **Python for Machine Learning & Data Science Masterclass (In Work)**: -Advanced mastery in Python for data science and machine learning, covering comprehensive topics from data manipulation with Pandas to deploying machine learning models, enhancing employability in top tech sectors.
 
 
 
