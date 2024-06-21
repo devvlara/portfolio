@@ -1,6 +1,6 @@
 # Data Analyst / Operations Engineer
 
-#### Technical Skills: Python, Tabealu, SQL
+#### Technical Skills: Excel, Python, Tabealu, SQL
 
 ## Education 			        		
 - B.S., Mechanical Engineering | The University of Texas at Austin (_May 2023_)
